@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserWebApplication", "UserWebApplication\UserWebApplication.csproj", "{43B8DAA5-130E-4D5E-8FD3-32790D89221E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDatabase", "UserDatabase\UserDatabase.sqlproj", "{660F2359-3921-40CC-A290-B7FF8D72721F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43B8DAA5-130E-4D5E-8FD3-32790D89221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B8DAA5-130E-4D5E-8FD3-32790D89221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B8DAA5-130E-4D5E-8FD3-32790D89221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B8DAA5-130E-4D5E-8FD3-32790D89221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660F2359-3921-40CC-A290-B7FF8D72721F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E004748F-E665-40AC-885A-A4336C658DD6}
+	EndGlobalSection
+EndGlobal

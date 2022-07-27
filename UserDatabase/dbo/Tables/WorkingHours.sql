@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[WorkingHours]
+(
+	[HoursId] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+	[StartDate] DATETIME NOT NULL DEFAULT GETDATE(),
+	[EndDate] DATETIME NOT NULL DEFAULT GETDATE(),
+	[UserId] INT NOT NULL, 
+    FOREIGN KEY(UserId) REFERENCES [dbo].[User](UserId)
+);
